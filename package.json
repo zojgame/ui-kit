@@ -1,0 +1,32 @@
+{
+  "name": "@test/ui",
+  "version": "1.0.0",
+  "description": "Test ui kit",
+  "main": "src/index.ts",
+  "files": [
+    "src/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zojgame/test-package.git"
+  },
+  "release": {
+    "branches": [
+      "master"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zojgame002",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^18.2.61",
+    "react": "^18.2.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.3",
+    "semantic-release": "^23.0.2"
+  }
+}
